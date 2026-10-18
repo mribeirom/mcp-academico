@@ -1,0 +1,12 @@
+# saídas do Maven
+target/
+
+# aplicação servidor gerada pelo perfil "server": a barra inicial restringe a
+# regra à raiz, pois também existe um pacote Java chamado "server"
+/server/
+
+# configurações locais do VS Code
+.vscode/
+
+# registros de execução
+*.log
